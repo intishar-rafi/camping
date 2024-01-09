@@ -69,8 +69,8 @@
     <section class="second">
            <div class="container text-center">
             <h3>A CAMPING EXPERIENCE THAT'S HASSLE FREE</h3>
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row m-2">
+                <div class="col-md-6 p-3">
                     <div class="card">
                         <img src="images/winter.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 p-3">
                     <div class="card">
                         <img src="images/dogs.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -93,6 +93,80 @@
                 </div>
             </div>
            </div>
+
+    </section>
+
+       
+
+<!-- 
+    <section>
+
+        <div class="container justify-content-center">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                <form action="" class="form-inline">
+                    <div class="input-group">
+                       <input type="number" id="age"class="form-control" placeholder="put age">
+                       <div class="input-append">
+                        <button onclick="AGE()" id="book" class="btn btn-sm btn-primary px-5">Click</button>
+                       </div>
+                       <div id="result" class="card" style="display:none;"></div>
+                    </div>
+               </form>
+            </div>
+        </div>
+
+
+    </section> -->
+
+
+
+
+
+
+    <section class="bg-dark">
+        <div class="container text-white text-center py-5">
+            <p class="lead">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES</p>
+
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                    <form action="" class="form-inline">
+                        <div class="input-group">
+                           <input type="text" class="form-control" placeholder="Your Email" required>
+                           <div class="input-append">
+                               <div class="button btn btn-primary">JOIN NOW</div>
+                           </div>
+                        </div>
+                   </form>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+
+    <section id="footer" class="p-3 bg-secondary">
+        <ul class="nav text-center justify-content-center flex-column flex-sm-row">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">EXPERIENCE</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">EXPLORE</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">CONTACT</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">BOOK NOW</a>
+            </li>
+
+        </ul>
 
     </section>
 
@@ -108,5 +182,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- <script>
+        function AGE(){
+            var ageInput = document.getElementById('age').value;
+            var resultDiv = document.getElementById('result');
+
+            if (ageInput >= 18) {
+             resultDiv.innerHTML = '<h3>You are an adult</h3>';
+      } else {
+        resultDiv.innerHTML = '<h3>You are a child</h3>';
+      }
+
+      resultDiv.style.display = 'block';
+    }
+
+    </script> -->
 </body>
 </html>
